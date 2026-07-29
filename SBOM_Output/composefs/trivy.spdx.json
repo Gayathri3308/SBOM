@@ -1,0 +1,40 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/composefs",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/composefs-6b9bd171-1c8d-4f03-9cc3-3302f63bb9b1",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-08T23:38:33Z"
+  },
+  "packages": [
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/composefs",
+      "SPDXID": "SPDXRef-Repository-281b62a04cf7a9b2",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/composefs",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:38:33Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-281b62a04cf7a9b2",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

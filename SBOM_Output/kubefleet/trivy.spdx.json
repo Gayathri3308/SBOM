@@ -1,0 +1,4871 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet-4bb44c38-4e5c-43f0-991a-a1e228648936",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-08T23:45:47Z"
+  },
+  "packages": [
+    {
+      "name": "go.mod",
+      "SPDXID": "SPDXRef-Application-e90da172ca54b427",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "Type: gomod"
+        }
+      ]
+    },
+    {
+      "name": "hack/perftest/fleetbuilder/requirements.txt",
+      "SPDXID": "SPDXRef-Application-adbff601f0c5e222",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-identity",
+      "SPDXID": "SPDXRef-Package-44c07dc3860efece",
+      "versionInfo": "1.25.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: hack/perftest/fleetbuilder/requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-identity@1.25.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-storage-queue",
+      "SPDXID": "SPDXRef-Package-e37565752fb3322f",
+      "versionInfo": "12.15.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: hack/perftest/fleetbuilder/requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-storage-queue@12.15.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "dario.cat/mergo",
+      "SPDXID": "SPDXRef-Package-6af919c3807c05cc",
+      "versionInfo": "v1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/dario.cat/mergo@v1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: dario.cat/mergo@v1.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "SPDXID": "SPDXRef-Package-d47b0d0b433834ea",
+      "versionInfo": "v1.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/azcore@v1.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "SPDXID": "SPDXRef-Package-949e77f8b5714bb2",
+      "versionInfo": "v1.10.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.10.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.10.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "SPDXID": "SPDXRef-Package-d168b71ad8e20917",
+      "versionInfo": "v1.11.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.11.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/internal@v1.11.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/authorization/armauthorization/v2",
+      "SPDXID": "SPDXRef-Package-f1c0ecd4a358a228",
+      "versionInfo": "v2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/authorization/armauthorization/v2@v2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/authorization/armauthorization/v2@v2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v6",
+      "SPDXID": "SPDXRef-Package-6bb4a1271212bc68",
+      "versionInfo": "v6.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v6@v6.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v6@v6.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerregistry/armcontainerregistry",
+      "SPDXID": "SPDXRef-Package-e51cf6cd1eb138fb",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/containerregistry/armcontainerregistry@v1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerregistry/armcontainerregistry@v1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerservice/armcontainerservice/v6",
+      "SPDXID": "SPDXRef-Package-6239c2d24c7b15e2",
+      "versionInfo": "v6.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/containerservice/armcontainerservice/v6@v6.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerservice/armcontainerservice/v6@v6.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/keyvault/armkeyvault",
+      "SPDXID": "SPDXRef-Package-1badd2905b5468fe",
+      "versionInfo": "v1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/keyvault/armkeyvault@v1.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/keyvault/armkeyvault@v1.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/msi/armmsi",
+      "SPDXID": "SPDXRef-Package-df95d7b7e3a9f90d",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/msi/armmsi@v1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/msi/armmsi@v1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v6",
+      "SPDXID": "SPDXRef-Package-cd61e2dd1d30bca6",
+      "versionInfo": "v6.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v6@v6.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v6@v6.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/privatedns/armprivatedns",
+      "SPDXID": "SPDXRef-Package-2aa06e09880c2e8d",
+      "versionInfo": "v1.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/privatedns/armprivatedns@v1.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/privatedns/armprivatedns@v1.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources",
+      "SPDXID": "SPDXRef-Package-2fc7ef7cb8cbfba6",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources@v1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources@v1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage",
+      "SPDXID": "SPDXRef-Package-5b20b401d550be72",
+      "versionInfo": "v1.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage@v1.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage@v1.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets",
+      "SPDXID": "SPDXRef-Package-16241dd768323a73",
+      "versionInfo": "v1.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets@v1.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets@v1.3.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/internal",
+      "SPDXID": "SPDXRef-Package-662a239996e3d1cf",
+      "versionInfo": "v1.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/security/keyvault/internal@v1.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/internal@v1.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/karpenter-provider-azure",
+      "SPDXID": "SPDXRef-Package-ee5b6bcc8879b537",
+      "versionInfo": "v1.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/karpenter-provider-azure@v1.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/karpenter-provider-azure@v1.5.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/Azure/msi-dataplane",
+      "SPDXID": "SPDXRef-Package-f0152aef2add9fa2",
+      "versionInfo": "v0.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/msi-dataplane@v0.4.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/Azure/msi-dataplane@v0.4.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "SPDXID": "SPDXRef-Package-676687e74e2d6b27",
+      "versionInfo": "v1.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/AzureAD/microsoft-authentication-library-for-go@v1.4.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/antlr4-go/antlr/v4",
+      "SPDXID": "SPDXRef-Package-abae0a4ceced48a9",
+      "versionInfo": "v4.13.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/antlr4-go/antlr/v4@v4.13.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/antlr4-go/antlr/v4@v4.13.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/beorn7/perks",
+      "SPDXID": "SPDXRef-Package-104da0a53274822d",
+      "versionInfo": "v1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/beorn7/perks@v1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/blang/semver/v4",
+      "SPDXID": "SPDXRef-Package-a986b3ca968f573c",
+      "versionInfo": "v4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/blang/semver/v4@v4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/blang/semver/v4@v4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/cespare/xxhash/v2",
+      "SPDXID": "SPDXRef-Package-1009dd3a60c855cd",
+      "versionInfo": "v2.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/cespare/xxhash/v2@v2.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/crossplane/crossplane-runtime/v2",
+      "SPDXID": "SPDXRef-Package-8a78c166ff7de55e",
+      "versionInfo": "v2.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/crossplane/crossplane-runtime/v2@v2.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/crossplane/crossplane-runtime/v2@v2.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/davecgh/go-spew",
+      "SPDXID": "SPDXRef-Package-ef6fa7cb974634ab",
+      "versionInfo": "v1.1.2-0.20180830191138-d8f796af33cc",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/emicklei/go-restful/v3",
+      "SPDXID": "SPDXRef-Package-e1ab8cfc9c6c4bd",
+      "versionInfo": "v3.12.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/emicklei/go-restful/v3@v3.12.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/emicklei/go-restful/v3@v3.12.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/evanphx/json-patch/v5",
+      "SPDXID": "SPDXRef-Package-84b2683dcfed8409",
+      "versionInfo": "v5.9.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/evanphx/json-patch/v5@v5.9.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/evanphx/json-patch/v5@v5.9.11"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/fsnotify/fsnotify",
+      "SPDXID": "SPDXRef-Package-c8ae26cef4fb949c",
+      "versionInfo": "v1.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/fsnotify/fsnotify@v1.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/fsnotify/fsnotify@v1.9.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/fxamacker/cbor/v2",
+      "SPDXID": "SPDXRef-Package-a5061d0522593308",
+      "versionInfo": "v2.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/fxamacker/cbor/v2@v2.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/fxamacker/cbor/v2@v2.9.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-errors/errors",
+      "SPDXID": "SPDXRef-Package-2cb04cbecfed5e7",
+      "versionInfo": "v1.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-errors/errors@v1.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-errors/errors@v1.4.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-logr/logr",
+      "SPDXID": "SPDXRef-Package-c72b009b4429409f",
+      "versionInfo": "v1.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/logr@v1.4.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-logr/logr@v1.4.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-logr/zapr",
+      "SPDXID": "SPDXRef-Package-e84ecda6f0722237",
+      "versionInfo": "v1.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/zapr@v1.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-logr/zapr@v1.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/jsonpointer",
+      "SPDXID": "SPDXRef-Package-eb45bdf6bf5b8239",
+      "versionInfo": "v0.21.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/jsonpointer@v0.21.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/jsonpointer@v0.21.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/jsonreference",
+      "SPDXID": "SPDXRef-Package-35215b114caf9cad",
+      "versionInfo": "v0.21.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/jsonreference@v0.21.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/jsonreference@v0.21.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/swag",
+      "SPDXID": "SPDXRef-Package-58070ba1457ba63",
+      "versionInfo": "v0.23.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/swag@v0.23.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/swag@v0.23.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-task/slim-sprig/v3",
+      "SPDXID": "SPDXRef-Package-76d880b3caa020cf",
+      "versionInfo": "v3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-task/slim-sprig/v3@v3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-task/slim-sprig/v3@v3.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/gogo/protobuf",
+      "SPDXID": "SPDXRef-Package-82ba4ee4a160619c",
+      "versionInfo": "v1.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/gogo/protobuf@v1.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/golang-jwt/jwt/v5",
+      "SPDXID": "SPDXRef-Package-fef68a55e3a919ce",
+      "versionInfo": "v5.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/golang-jwt/jwt/v5@v5.2.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/btree",
+      "SPDXID": "SPDXRef-Package-745f10b6172ac16d",
+      "versionInfo": "v1.1.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/btree@v1.1.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/btree@v1.1.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/gnostic-models",
+      "SPDXID": "SPDXRef-Package-2df4e6fe2def16ac",
+      "versionInfo": "v0.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/gnostic-models@v0.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/gnostic-models@v0.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/go-cmp",
+      "SPDXID": "SPDXRef-Package-52811d9edde613",
+      "versionInfo": "v0.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/go-cmp@v0.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/go-cmp@v0.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/pprof",
+      "SPDXID": "SPDXRef-Package-fac29e19c962dfe9",
+      "versionInfo": "v0.0.0-20250403155104-27863c87afa6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/pprof@v0.0.0-20250403155104-27863c87afa6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/pprof@v0.0.0-20250403155104-27863c87afa6"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/shlex",
+      "SPDXID": "SPDXRef-Package-ab1fff60d7e8c6ee",
+      "versionInfo": "v0.0.0-20191202100458-e7afc7fbc510",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/uuid",
+      "SPDXID": "SPDXRef-Package-2226842ad3e93691",
+      "versionInfo": "v1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/uuid@v1.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/uuid@v1.6.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/inconshreveable/mousetrap",
+      "SPDXID": "SPDXRef-Package-99b6eb79021a4fc9",
+      "versionInfo": "v1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/inconshreveable/mousetrap@v1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/inconshreveable/mousetrap@v1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/josharian/intern",
+      "SPDXID": "SPDXRef-Package-7e143dba4a02dbe8",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/josharian/intern@v1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/josharian/intern@v1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/json-iterator/go",
+      "SPDXID": "SPDXRef-Package-1de7783b24564655",
+      "versionInfo": "v1.1.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/json-iterator/go@v1.1.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/kubefleet-dev/kubefleet",
+      "SPDXID": "SPDXRef-Package-48483e5fd58a5b31",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/kubefleet-dev/kubefleet"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/kubefleet-dev/kubefleet"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/kylelemons/godebug",
+      "SPDXID": "SPDXRef-Package-56d143328c582c21",
+      "versionInfo": "v1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/kylelemons/godebug@v1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/kylelemons/godebug@v1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/mailru/easyjson",
+      "SPDXID": "SPDXRef-Package-d6ca548ca8366ad4",
+      "versionInfo": "v0.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mailru/easyjson@v0.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/mailru/easyjson@v0.9.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/mitchellh/hashstructure/v2",
+      "SPDXID": "SPDXRef-Package-8e89b10a168e54de",
+      "versionInfo": "v2.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/mitchellh/hashstructure/v2@v2.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/modern-go/concurrent",
+      "SPDXID": "SPDXRef-Package-78b1a9d303b2512",
+      "versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/modern-go/reflect2",
+      "SPDXID": "SPDXRef-Package-6983406eed2cb619",
+      "versionInfo": "v1.0.3-0.20250322232337-35a7c28c31ee",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.3-0.20250322232337-35a7c28c31ee"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/modern-go/reflect2@v1.0.3-0.20250322232337-35a7c28c31ee"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/monochromegane/go-gitignore",
+      "SPDXID": "SPDXRef-Package-376c8f455251cb6a",
+      "versionInfo": "v0.0.0-20200626010858-205db1a8cc00",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/monochromegane/go-gitignore@v0.0.0-20200626010858-205db1a8cc00"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/monochromegane/go-gitignore@v0.0.0-20200626010858-205db1a8cc00"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/munnerz/goautoneg",
+      "SPDXID": "SPDXRef-Package-ce1636d65b1389ce",
+      "versionInfo": "v0.0.0-20191010083416-a7dc8b61c822",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/onsi/ginkgo/v2",
+      "SPDXID": "SPDXRef-Package-b3ad2ede05b94dfb",
+      "versionInfo": "v2.23.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/onsi/ginkgo/v2@v2.23.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/onsi/ginkgo/v2@v2.23.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/onsi/gomega",
+      "SPDXID": "SPDXRef-Package-36ca50535b3a8afd",
+      "versionInfo": "v1.37.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/onsi/gomega@v1.37.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/onsi/gomega@v1.37.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/patrickmn/go-cache",
+      "SPDXID": "SPDXRef-Package-88cc05aa7a72941d",
+      "versionInfo": "v2.1.0+incompatible",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/patrickmn/go-cache@v2.1.0%2Bincompatible"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/patrickmn/go-cache@v2.1.0+incompatible"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/pkg/browser",
+      "SPDXID": "SPDXRef-Package-2937951d74b32b6a",
+      "versionInfo": "v0.0.0-20240102092130-5ac0b6a4141c",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/pkg/errors",
+      "SPDXID": "SPDXRef-Package-bc39cee6c70b51e4",
+      "versionInfo": "v0.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/pkg/errors@v0.9.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/pmezard/go-difflib",
+      "SPDXID": "SPDXRef-Package-646d61f07669f7d1",
+      "versionInfo": "v1.0.1-0.20181226105442-5d4384ee4fb2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pmezard/go-difflib@v1.0.1-0.20181226105442-5d4384ee4fb2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/pmezard/go-difflib@v1.0.1-0.20181226105442-5d4384ee4fb2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/client_golang",
+      "SPDXID": "SPDXRef-Package-dd653b57782f33da",
+      "versionInfo": "v1.22.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.22.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/client_golang@v1.22.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/client_model",
+      "SPDXID": "SPDXRef-Package-6de91391e45ba3f4",
+      "versionInfo": "v0.6.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.6.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/client_model@v0.6.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/common",
+      "SPDXID": "SPDXRef-Package-4c25c398046ce7c0",
+      "versionInfo": "v0.62.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.62.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/common@v0.62.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/procfs",
+      "SPDXID": "SPDXRef-Package-f2fd6fde7f73b2",
+      "versionInfo": "v0.15.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.15.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/procfs@v0.15.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/qri-io/jsonpointer",
+      "SPDXID": "SPDXRef-Package-eabf280640cef5f3",
+      "versionInfo": "v0.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/qri-io/jsonpointer@v0.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/qri-io/jsonpointer@v0.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/samber/lo",
+      "SPDXID": "SPDXRef-Package-49f67009210975d8",
+      "versionInfo": "v1.51.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/samber/lo@v1.51.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/samber/lo@v1.51.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/spf13/cobra",
+      "SPDXID": "SPDXRef-Package-3e2d7d4749f59f93",
+      "versionInfo": "v1.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.9.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/spf13/cobra@v1.9.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/spf13/pflag",
+      "SPDXID": "SPDXRef-Package-2d2d9066e94e215a",
+      "versionInfo": "v1.0.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/spf13/pflag@v1.0.6"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/stretchr/testify",
+      "SPDXID": "SPDXRef-Package-85d2402501850d68",
+      "versionInfo": "v1.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/stretchr/testify@v1.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/stretchr/testify@v1.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/tidwall/gjson",
+      "SPDXID": "SPDXRef-Package-ed32a56584a77333",
+      "versionInfo": "v1.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/tidwall/gjson@v1.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/tidwall/gjson@v1.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/tidwall/match",
+      "SPDXID": "SPDXRef-Package-217552f24de2bf6a",
+      "versionInfo": "v1.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/tidwall/match@v1.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/tidwall/match@v1.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/tidwall/pretty",
+      "SPDXID": "SPDXRef-Package-d6c8b7c05ed16401",
+      "versionInfo": "v1.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/tidwall/pretty@v1.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/tidwall/pretty@v1.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/tidwall/sjson",
+      "SPDXID": "SPDXRef-Package-6112e90c8c6416f4",
+      "versionInfo": "v1.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/tidwall/sjson@v1.2.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/tidwall/sjson@v1.2.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/wI2L/jsondiff",
+      "SPDXID": "SPDXRef-Package-281369994f884c54",
+      "versionInfo": "v0.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/wi2l/jsondiff@v0.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/wI2L/jsondiff@v0.6.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/x448/float16",
+      "SPDXID": "SPDXRef-Package-8228ff7513f7588c",
+      "versionInfo": "v0.8.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/x448/float16@v0.8.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/x448/float16@v0.8.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "github.com/xlab/treeprint",
+      "SPDXID": "SPDXRef-Package-537186bf4450ca54",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/xlab/treeprint@v1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/xlab/treeprint@v1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.goms.io/fleet-networking",
+      "SPDXID": "SPDXRef-Package-8a4c98ab5eff5bf2",
+      "versionInfo": "v0.3.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.goms.io/fleet-networking@v0.3.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.goms.io/fleet-networking@v0.3.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.opentelemetry.io/otel",
+      "SPDXID": "SPDXRef-Package-75d29af4cd0ede5b",
+      "versionInfo": "v1.35.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel@v1.35.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.opentelemetry.io/otel@v1.35.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.opentelemetry.io/otel/metric",
+      "SPDXID": "SPDXRef-Package-e6bdce0f53c20d07",
+      "versionInfo": "v1.35.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/metric@v1.35.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.opentelemetry.io/otel/metric@v1.35.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/atomic",
+      "SPDXID": "SPDXRef-Package-9d7ea534e1304887",
+      "versionInfo": "v1.11.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/atomic@v1.11.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/atomic@v1.11.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/automaxprocs",
+      "SPDXID": "SPDXRef-Package-4a8afd497df5e3fd",
+      "versionInfo": "v1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/automaxprocs@v1.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/automaxprocs@v1.6.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/mock",
+      "SPDXID": "SPDXRef-Package-7855a41e6276040b",
+      "versionInfo": "v0.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/mock@v0.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/mock@v0.5.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/multierr",
+      "SPDXID": "SPDXRef-Package-9111b03d3ac198fa",
+      "versionInfo": "v1.11.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/multierr@v1.11.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/multierr@v1.11.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/zap",
+      "SPDXID": "SPDXRef-Package-a4b6fb5dbfe9f737",
+      "versionInfo": "v1.27.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/zap@v1.27.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/zap@v1.27.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.yaml.in/yaml/v2",
+      "SPDXID": "SPDXRef-Package-e6d4220135fc798a",
+      "versionInfo": "v2.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.yaml.in/yaml/v2@v2.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.yaml.in/yaml/v2@v2.4.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "go.yaml.in/yaml/v3",
+      "SPDXID": "SPDXRef-Package-9dbf6c3f83f5dfe7",
+      "versionInfo": "v3.0.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.yaml.in/yaml/v3@v3.0.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.yaml.in/yaml/v3@v3.0.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/crypto",
+      "SPDXID": "SPDXRef-Package-87dab0a6336fda94",
+      "versionInfo": "v0.52.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.52.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/crypto@v0.52.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/exp",
+      "SPDXID": "SPDXRef-Package-18be347f70fe0e2f",
+      "versionInfo": "v0.0.0-20250305212735-054e65f0b394",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/exp@v0.0.0-20250305212735-054e65f0b394"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/exp@v0.0.0-20250305212735-054e65f0b394"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/net",
+      "SPDXID": "SPDXRef-Package-ad64ee89db9c8e5c",
+      "versionInfo": "v0.55.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/net@v0.55.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/net@v0.55.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/oauth2",
+      "SPDXID": "SPDXRef-Package-e8f92060c09b984b",
+      "versionInfo": "v0.29.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.29.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/oauth2@v0.29.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/sync",
+      "SPDXID": "SPDXRef-Package-44b9cde5b9bc6d94",
+      "versionInfo": "v0.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sync@v0.20.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/sync@v0.20.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/sys",
+      "SPDXID": "SPDXRef-Package-ad8e67806559790d",
+      "versionInfo": "v0.45.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.45.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/sys@v0.45.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/term",
+      "SPDXID": "SPDXRef-Package-815e28cbf7cdf0f8",
+      "versionInfo": "v0.43.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/term@v0.43.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/term@v0.43.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/text",
+      "SPDXID": "SPDXRef-Package-96dc9d81d18d600a",
+      "versionInfo": "v0.37.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/text@v0.37.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/text@v0.37.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/time",
+      "SPDXID": "SPDXRef-Package-225bc7df42fcc97d",
+      "versionInfo": "v0.11.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/time@v0.11.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/time@v0.11.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/tools",
+      "SPDXID": "SPDXRef-Package-67957ffbdc847d70",
+      "versionInfo": "v0.44.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/tools@v0.44.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/tools@v0.44.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "gomodules.xyz/jsonpatch/v2",
+      "SPDXID": "SPDXRef-Package-b82bb5829f36c859",
+      "versionInfo": "v2.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gomodules.xyz/jsonpatch/v2@v2.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gomodules.xyz/jsonpatch/v2@v2.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "google.golang.org/protobuf",
+      "SPDXID": "SPDXRef-Package-6258de31e7fe1659",
+      "versionInfo": "v1.36.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.36.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: google.golang.org/protobuf@v1.36.6"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/evanphx/json-patch.v4",
+      "SPDXID": "SPDXRef-Package-9d27cf609fcbf2ba",
+      "versionInfo": "v4.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/evanphx/json-patch.v4@v4.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/evanphx/json-patch.v4@v4.12.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/inf.v0",
+      "SPDXID": "SPDXRef-Package-74d00ba9f1e5096a",
+      "versionInfo": "v0.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/inf.v0@v0.9.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/yaml.v3",
+      "SPDXID": "SPDXRef-Package-9055f00dcbd01a13",
+      "versionInfo": "v3.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/yaml.v3@v3.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/api",
+      "SPDXID": "SPDXRef-Package-fea69db7fe56bfc9",
+      "versionInfo": "v0.34.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/api@v0.34.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/api@v0.34.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/apiextensions-apiserver",
+      "SPDXID": "SPDXRef-Package-c959349adb953a88",
+      "versionInfo": "v0.34.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/apiextensions-apiserver@v0.34.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/apiextensions-apiserver@v0.34.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/apimachinery",
+      "SPDXID": "SPDXRef-Package-9e30d01a894d314d",
+      "versionInfo": "v0.34.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.34.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/apimachinery@v0.34.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/cli-runtime",
+      "SPDXID": "SPDXRef-Package-a234e16a4781852c",
+      "versionInfo": "v0.32.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/cli-runtime@v0.32.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/cli-runtime@v0.32.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/client-go",
+      "SPDXID": "SPDXRef-Package-2ff4347455f57038",
+      "versionInfo": "v0.34.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/client-go@v0.34.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/client-go@v0.34.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/component-helpers",
+      "SPDXID": "SPDXRef-Package-7cc940a7d0fd41d5",
+      "versionInfo": "v0.32.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/component-helpers@v0.32.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/component-helpers@v0.32.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/klog/v2",
+      "SPDXID": "SPDXRef-Package-1ebb38e5cdb79810",
+      "versionInfo": "v2.130.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.130.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/klog/v2@v2.130.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/kube-openapi",
+      "SPDXID": "SPDXRef-Package-c6fb7f97d6f8b02f",
+      "versionInfo": "v0.0.0-20250710124328-f3f2b991d03b",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20250710124328-f3f2b991d03b"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/kube-openapi@v0.0.0-20250710124328-f3f2b991d03b"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/kubectl",
+      "SPDXID": "SPDXRef-Package-aafe4e1fc345cb97",
+      "versionInfo": "v0.32.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/kubectl@v0.32.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/kubectl@v0.32.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/metrics",
+      "SPDXID": "SPDXRef-Package-c5fd89b2cd93f5c0",
+      "versionInfo": "v0.32.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/metrics@v0.32.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/metrics@v0.32.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/utils",
+      "SPDXID": "SPDXRef-Package-abed4acc8343608",
+      "versionInfo": "v0.0.0-20250604170112-4c0f3b243397",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20250604170112-4c0f3b243397"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/utils@v0.0.0-20250604170112-4c0f3b243397"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/cloud-provider-azure",
+      "SPDXID": "SPDXRef-Package-b26e90c850a2007d",
+      "versionInfo": "v1.32.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/cloud-provider-azure@v1.32.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/cloud-provider-azure@v1.32.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/cloud-provider-azure/pkg/azclient",
+      "SPDXID": "SPDXRef-Package-43f088f955ea17a5",
+      "versionInfo": "v0.5.20",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/cloud-provider-azure/pkg/azclient@v0.5.20"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/cloud-provider-azure/pkg/azclient@v0.5.20"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/cluster-inventory-api",
+      "SPDXID": "SPDXRef-Package-17195f0499bef9dd",
+      "versionInfo": "v0.0.0-20251028164203-2e3fabb46733",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/cluster-inventory-api@v0.0.0-20251028164203-2e3fabb46733"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/cluster-inventory-api@v0.0.0-20251028164203-2e3fabb46733"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/controller-runtime",
+      "SPDXID": "SPDXRef-Package-c9e040284b5d9e5a",
+      "versionInfo": "v0.22.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/controller-runtime@v0.22.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/controller-runtime@v0.22.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/json",
+      "SPDXID": "SPDXRef-Package-ececcd64128e4fe0",
+      "versionInfo": "v0.0.0-20241014173422-cfa47c3a1cc8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/json@v0.0.0-20241014173422-cfa47c3a1cc8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/json@v0.0.0-20241014173422-cfa47c3a1cc8"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/karpenter",
+      "SPDXID": "SPDXRef-Package-12b362407b09a2c3",
+      "versionInfo": "v1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/karpenter@v1.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/karpenter@v1.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/kustomize/api",
+      "SPDXID": "SPDXRef-Package-1bded60a8d2665b8",
+      "versionInfo": "v0.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/kustomize/api@v0.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/kustomize/api@v0.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/kustomize/kyaml",
+      "SPDXID": "SPDXRef-Package-83665355051f11a",
+      "versionInfo": "v0.18.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/kustomize/kyaml@v0.18.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/kustomize/kyaml@v0.18.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/randfill",
+      "SPDXID": "SPDXRef-Package-ccdc78bad8b53adc",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/randfill@v1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/randfill@v1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/structured-merge-diff/v6",
+      "SPDXID": "SPDXRef-Package-271f4e9e92d7ebb9",
+      "versionInfo": "v6.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v6@v6.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/structured-merge-diff/v6@v6.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/yaml",
+      "SPDXID": "SPDXRef-Package-a61014d3b04a1614",
+      "versionInfo": "v1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/yaml@v1.6.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "SPDXID": "SPDXRef-Repository-7c4d7b15db14672",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/kubefleet",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:47Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-adbff601f0c5e222",
+      "relatedSpdxElement": "SPDXRef-Package-44c07dc3860efece",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-adbff601f0c5e222",
+      "relatedSpdxElement": "SPDXRef-Package-e37565752fb3322f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-e90da172ca54b427",
+      "relatedSpdxElement": "SPDXRef-Package-48483e5fd58a5b31",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-7c4d7b15db14672",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-1009dd3a60c855cd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-104da0a53274822d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-12b362407b09a2c3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-16241dd768323a73",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-17195f0499bef9dd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-18be347f70fe0e2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-1badd2905b5468fe",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-1bded60a8d2665b8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-1de7783b24564655",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-1ebb38e5cdb79810",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-217552f24de2bf6a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2226842ad3e93691",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-225bc7df42fcc97d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-271f4e9e92d7ebb9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-281369994f884c54",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2937951d74b32b6a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2aa06e09880c2e8d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2cb04cbecfed5e7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2d2d9066e94e215a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2df4e6fe2def16ac",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2fc7ef7cb8cbfba6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-2ff4347455f57038",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-35215b114caf9cad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-36ca50535b3a8afd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-376c8f455251cb6a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-3e2d7d4749f59f93",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-43f088f955ea17a5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-44b9cde5b9bc6d94",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-49f67009210975d8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-4a8afd497df5e3fd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-4c25c398046ce7c0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-52811d9edde613",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-537186bf4450ca54",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-56d143328c582c21",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-58070ba1457ba63",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-5b20b401d550be72",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6112e90c8c6416f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6239c2d24c7b15e2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6258de31e7fe1659",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-646d61f07669f7d1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-662a239996e3d1cf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-676687e74e2d6b27",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-67957ffbdc847d70",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6983406eed2cb619",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6af919c3807c05cc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6bb4a1271212bc68",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-6de91391e45ba3f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-745f10b6172ac16d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-74d00ba9f1e5096a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-75d29af4cd0ede5b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-76d880b3caa020cf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-7855a41e6276040b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-78b1a9d303b2512",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-7cc940a7d0fd41d5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-7e143dba4a02dbe8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-815e28cbf7cdf0f8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-8228ff7513f7588c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-82ba4ee4a160619c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-83665355051f11a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-84b2683dcfed8409",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-85d2402501850d68",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-87dab0a6336fda94",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-88cc05aa7a72941d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-8a4c98ab5eff5bf2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-8a78c166ff7de55e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-8e89b10a168e54de",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9055f00dcbd01a13",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9111b03d3ac198fa",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-949e77f8b5714bb2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-96dc9d81d18d600a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-99b6eb79021a4fc9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9d27cf609fcbf2ba",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9d7ea534e1304887",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9dbf6c3f83f5dfe7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-9e30d01a894d314d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-a234e16a4781852c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-a4b6fb5dbfe9f737",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-a5061d0522593308",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-a61014d3b04a1614",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-a986b3ca968f573c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-aafe4e1fc345cb97",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ab1fff60d7e8c6ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-abae0a4ceced48a9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-abed4acc8343608",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ad64ee89db9c8e5c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ad8e67806559790d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-b26e90c850a2007d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-b3ad2ede05b94dfb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-b82bb5829f36c859",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-bc39cee6c70b51e4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c5fd89b2cd93f5c0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c6fb7f97d6f8b02f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c72b009b4429409f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c8ae26cef4fb949c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c959349adb953a88",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-c9e040284b5d9e5a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ccdc78bad8b53adc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-cd61e2dd1d30bca6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ce1636d65b1389ce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-d168b71ad8e20917",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-d47b0d0b433834ea",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-d6c8b7c05ed16401",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-d6ca548ca8366ad4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-dd653b57782f33da",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-df95d7b7e3a9f90d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e1ab8cfc9c6c4bd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e51cf6cd1eb138fb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e6bdce0f53c20d07",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e6d4220135fc798a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e84ecda6f0722237",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-e8f92060c09b984b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-eabf280640cef5f3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-eb45bdf6bf5b8239",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ececcd64128e4fe0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ed32a56584a77333",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ee5b6bcc8879b537",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-ef6fa7cb974634ab",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-f0152aef2add9fa2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-f1c0ecd4a358a228",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-f2fd6fde7f73b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-fac29e19c962dfe9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-fea69db7fe56bfc9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-48483e5fd58a5b31",
+      "relatedSpdxElement": "SPDXRef-Package-fef68a55e3a919ce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-7c4d7b15db14672",
+      "relatedSpdxElement": "SPDXRef-Application-adbff601f0c5e222",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-7c4d7b15db14672",
+      "relatedSpdxElement": "SPDXRef-Application-e90da172ca54b427",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

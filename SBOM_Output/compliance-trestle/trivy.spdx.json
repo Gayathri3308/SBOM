@@ -1,0 +1,40 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/compliance-trestle",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/compliance-trestle-a7ba2542-192e-4e5b-b755-565d547511dc",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-09T00:03:21Z"
+  },
+  "packages": [
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/compliance-trestle",
+      "SPDXID": "SPDXRef-Repository-e6220ea103391e",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/compliance-trestle",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-09T00:03:21Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-e6220ea103391e",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

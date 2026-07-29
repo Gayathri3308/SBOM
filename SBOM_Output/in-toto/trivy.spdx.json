@@ -1,0 +1,40 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/in-toto",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/in-toto-e63f04c6-ae24-4b02-96c6-78c9ebbe6c52",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-08T23:45:04Z"
+  },
+  "packages": [
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/in-toto",
+      "SPDXID": "SPDXRef-Repository-b63fbe419181dc73",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/in-toto",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:45:04Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-b63fbe419181dc73",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

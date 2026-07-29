@@ -1,0 +1,552 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Flatcar",
+  "documentNamespace": "https://anchore.com/syft/dir/Flatcar-1d99df4b-9a54-4170-b01f-ab6228f4d52b",
+  "creationInfo": {
+    "licenseListVersion": "3.28",
+    "creators": [
+      "Organization: Anchore, Inc",
+      "Tool: syft-1.46.0"
+    ],
+    "created": "2026-07-08T23:42:41Z"
+  },
+  "packages": [
+    {
+      "name": "actions/upload-artifact",
+      "SPDXID": "SPDXRef-Package-github-action-actions-upload-artifact-49f4592afe3e3c15",
+      "versionInfo": "v4",
+      "supplier": "Organization: GitHub",
+      "originator": "Organization: GitHub",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: \\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/actions/upload-artifact@v4"
+        }
+      ]
+    },
+    {
+      "name": "github-community-projects/contributors",
+      "SPDXID": "SPDXRef-Package-github-action-github-community-projects-contributors-61c821ab24dd8a4a",
+      "versionInfo": "v1",
+      "supplier": "Organization: github-community-projects",
+      "originator": "Organization: github-community-projects",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: \\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/contributors:github-community-projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/contributors:github_community_projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/contributors:github-community-projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/contributors:github_community_projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community:github-community-projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community:github_community_projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community:github-community-projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community:github_community_projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github:github-community-projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github:github_community_projects\\/contributors:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/github-community-projects/contributors@v1"
+        }
+      ]
+    },
+    {
+      "name": "github-community-projects/issue-metrics",
+      "SPDXID": "SPDXRef-Package-github-action-github-community-projects-issue-metrics-245747873bc7e53b",
+      "versionInfo": "v2",
+      "supplier": "Organization: github-community-projects",
+      "originator": "Organization: github-community-projects",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: \\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/issue-metrics:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/issue-metrics:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/issue_metrics:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/issue_metrics:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/issue:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community-projects\\/issue:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/issue:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community_projects\\/issue:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github-community:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github_community:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github:github-community-projects\\/issue-metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:github:github_community_projects\\/issue_metrics:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/github-community-projects/issue-metrics@v2"
+        }
+      ]
+    },
+    {
+      "name": "peter-evans/create-issue-from-file",
+      "SPDXID": "SPDXRef-Package-github-action-peter-evans-create-issue-from-file-16a66390920346ef",
+      "versionInfo": "v5",
+      "supplier": "Organization: peter-evans",
+      "originator": "Organization: peter-evans",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: \\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue-from-file:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue-from-file:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue_from_file:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue_from_file:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue-from:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue-from:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue_from:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue_from:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-issue:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_issue:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter:peter-evans\\/create-issue-from-file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter:peter_evans\\/create_issue_from_file:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/peter-evans/create-issue-from-file@v5"
+        }
+      ]
+    },
+    {
+      "name": "peter-evans/create-or-update-comment",
+      "SPDXID": "SPDXRef-Package-github-action-peter-evans-create-or-update-comment-6e2516e99d8ab824",
+      "versionInfo": "v4",
+      "supplier": "Organization: peter-evans",
+      "originator": "Organization: peter-evans",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from GitHub Actions workflow file or composite action file: \\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or-update:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or-update:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or_update:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or_update:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create-or:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create_or:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter:peter-evans\\/create-or-update-comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:peter:peter_evans\\/create_or_update_comment:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/peter-evans/create-or-update-comment@v4"
+        }
+      ]
+    },
+    {
+      "name": "Flatcar",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "files": [
+    {
+      "fileName": "\\.github\\workflows\\issue-pr-contrib-metrics.yaml",
+      "SPDXID": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0000000000000000000000000000000000000000"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "\\sync-maintainers\\requirements.txt",
+      "SPDXID": "SPDXRef-File--sync-maintainers-requirements.txt-19adfee91dcdf507",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0000000000000000000000000000000000000000"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-github-action-peter-evans-create-issue-from-file-16a66390920346ef",
+      "relatedSpdxElement": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github-action-github-community-projects-issue-metrics-245747873bc7e53b",
+      "relatedSpdxElement": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github-action-actions-upload-artifact-49f4592afe3e3c15",
+      "relatedSpdxElement": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github-action-github-community-projects-contributors-61c821ab24dd8a4a",
+      "relatedSpdxElement": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github-action-peter-evans-create-or-update-comment-6e2516e99d8ab824",
+      "relatedSpdxElement": "SPDXRef-File--.github-workflows-issue-pr-contrib-metrics.yaml-c6f30d24039b6857",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relatedSpdxElement": "SPDXRef-Package-github-action-actions-upload-artifact-49f4592afe3e3c15",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relatedSpdxElement": "SPDXRef-Package-github-action-github-community-projects-contributors-61c821ab24dd8a4a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relatedSpdxElement": "SPDXRef-Package-github-action-github-community-projects-issue-metrics-245747873bc7e53b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relatedSpdxElement": "SPDXRef-Package-github-action-peter-evans-create-issue-from-file-16a66390920346ef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relatedSpdxElement": "SPDXRef-Package-github-action-peter-evans-create-or-update-comment-6e2516e99d8ab824",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-Flatcar",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

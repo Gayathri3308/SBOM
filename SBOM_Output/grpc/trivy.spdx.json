@@ -1,0 +1,3279 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc-31da616b-ec1a-4b36-b72b-e4bce020d20e",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-08T23:44:45Z"
+  },
+  "packages": [
+    {
+      "name": "examples/node/package-lock.json",
+      "SPDXID": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Type: npm"
+        }
+      ]
+    },
+    {
+      "name": "requirements.txt",
+      "SPDXID": "SPDXRef-Application-243836e57ed785a5",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pip"
+        }
+      ]
+    },
+    {
+      "name": "tools/http2_interop/go.mod",
+      "SPDXID": "SPDXRef-Application-f7bacab076c23a10",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "Type: gomod"
+        }
+      ]
+    },
+    {
+      "name": "@grpc/grpc-js",
+      "SPDXID": "SPDXRef-Package-a25026417238bb8",
+      "versionInfo": "1.1.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40grpc/grpc-js@1.1.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @grpc/grpc-js@1.1.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@grpc/proto-loader",
+      "SPDXID": "SPDXRef-Package-50fca134d3fd06e8",
+      "versionInfo": "0.6.0-pre9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40grpc/proto-loader@0.6.0-pre9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @grpc/proto-loader@0.6.0-pre9"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@grpc/proto-loader",
+      "SPDXID": "SPDXRef-Package-d9324c59d994f9cb",
+      "versionInfo": "0.5.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40grpc/proto-loader@0.5.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @grpc/proto-loader@0.5.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/aspromise",
+      "SPDXID": "SPDXRef-Package-83377585b8c122c1",
+      "versionInfo": "1.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/aspromise@1.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/aspromise@1.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/base64",
+      "SPDXID": "SPDXRef-Package-342c37f2c91e1a8c",
+      "versionInfo": "1.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/base64@1.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/base64@1.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/codegen",
+      "SPDXID": "SPDXRef-Package-e3cd4adf1009f861",
+      "versionInfo": "2.0.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/codegen@2.0.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/codegen@2.0.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/eventemitter",
+      "SPDXID": "SPDXRef-Package-70458d5b91d502c8",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/eventemitter@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/eventemitter@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/fetch",
+      "SPDXID": "SPDXRef-Package-24a3485c73fd7b08",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/fetch@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/fetch@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/float",
+      "SPDXID": "SPDXRef-Package-bd51c62f6095a24d",
+      "versionInfo": "1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/float@1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/float@1.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/inquire",
+      "SPDXID": "SPDXRef-Package-737188e2cfe9c25d",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/inquire@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/inquire@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/path",
+      "SPDXID": "SPDXRef-Package-a79337cb2f1f8df5",
+      "versionInfo": "1.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/path@1.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/path@1.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/pool",
+      "SPDXID": "SPDXRef-Package-53cf2c81a44550c6",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/pool@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/pool@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@protobufjs/utf8",
+      "SPDXID": "SPDXRef-Package-15cc5aa90a1e5ac",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40protobufjs/utf8@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @protobufjs/utf8@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@types/long",
+      "SPDXID": "SPDXRef-Package-8dac258a36f8c968",
+      "versionInfo": "4.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40types/long@4.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @types/long@4.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@types/node",
+      "SPDXID": "SPDXRef-Package-3dccb65fc1a281e3",
+      "versionInfo": "13.13.30",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40types/node@13.13.30"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @types/node@13.13.30"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "@types/node",
+      "SPDXID": "SPDXRef-Package-dc34e91b609b71b9",
+      "versionInfo": "12.19.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/%40types/node@12.19.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: @types/node@12.19.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "abort-controller",
+      "SPDXID": "SPDXRef-Package-74477c28847c2150",
+      "versionInfo": "3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/abort-controller@3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: abort-controller@3.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "agent-base",
+      "SPDXID": "SPDXRef-Package-c7b4b6da18c4b050",
+      "versionInfo": "6.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/agent-base@6.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: agent-base@6.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "ansi-regex",
+      "SPDXID": "SPDXRef-Package-91f45007fc1728f4",
+      "versionInfo": "5.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ansi-regex@5.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ansi-regex@5.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "SPDXID": "SPDXRef-Package-d7251af4ccbf9579",
+      "versionInfo": "4.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ansi-styles@4.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ansi-styles@4.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "arrify",
+      "SPDXID": "SPDXRef-Package-1d0015dff2f6b0e2",
+      "versionInfo": "2.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/arrify@2.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: arrify@2.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "async",
+      "SPDXID": "SPDXRef-Package-27112fba9a11b3b3",
+      "versionInfo": "1.5.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/async@1.5.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: async@1.5.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "base64-js",
+      "SPDXID": "SPDXRef-Package-fdb1ee920b594571",
+      "versionInfo": "1.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/base64-js@1.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: base64-js@1.3.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "bignumber.js",
+      "SPDXID": "SPDXRef-Package-9fc77448a9ac5480",
+      "versionInfo": "9.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/bignumber.js@9.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: bignumber.js@9.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "buffer-equal-constant-time",
+      "SPDXID": "SPDXRef-Package-2af73f81e6e07c57",
+      "versionInfo": "1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/buffer-equal-constant-time@1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: buffer-equal-constant-time@1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "camelcase",
+      "SPDXID": "SPDXRef-Package-dca330e573ace304",
+      "versionInfo": "5.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/camelcase@5.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: camelcase@5.3.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "cliui",
+      "SPDXID": "SPDXRef-Package-3a463591bf00981a",
+      "versionInfo": "6.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/cliui@6.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: cliui@6.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "color-convert",
+      "SPDXID": "SPDXRef-Package-5f87feddb2217265",
+      "versionInfo": "2.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/color-convert@2.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: color-convert@2.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "color-name",
+      "SPDXID": "SPDXRef-Package-b4a09e0b9e5ae560",
+      "versionInfo": "1.1.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/color-name@1.1.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: color-name@1.1.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "cython",
+      "SPDXID": "SPDXRef-Package-754b88673e6fe891",
+      "versionInfo": "3.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/cython@3.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "debug",
+      "SPDXID": "SPDXRef-Package-63496007f56ffa20",
+      "versionInfo": "4.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/debug@4.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: debug@4.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "decamelize",
+      "SPDXID": "SPDXRef-Package-99d5028468a86a19",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/decamelize@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: decamelize@1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "ecdsa-sig-formatter",
+      "SPDXID": "SPDXRef-Package-858028913c113b28",
+      "versionInfo": "1.0.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ecdsa-sig-formatter@1.0.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ecdsa-sig-formatter@1.0.11"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "emoji-regex",
+      "SPDXID": "SPDXRef-Package-e97875a14d879997",
+      "versionInfo": "8.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/emoji-regex@8.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: emoji-regex@8.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "event-target-shim",
+      "SPDXID": "SPDXRef-Package-e259153b0a004432",
+      "versionInfo": "5.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/event-target-shim@5.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: event-target-shim@5.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "extend",
+      "SPDXID": "SPDXRef-Package-1032b70c4d73f581",
+      "versionInfo": "3.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/extend@3.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: extend@3.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "fast-text-encoding",
+      "SPDXID": "SPDXRef-Package-7ed83ef35e7609cc",
+      "versionInfo": "1.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/fast-text-encoding@1.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: fast-text-encoding@1.0.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "find-up",
+      "SPDXID": "SPDXRef-Package-c7554c8e00dc760f",
+      "versionInfo": "4.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/find-up@4.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: find-up@4.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "gaxios",
+      "SPDXID": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "versionInfo": "4.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/gaxios@4.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gaxios@4.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "SPDXID": "SPDXRef-Package-e6c9292f60366003",
+      "versionInfo": "4.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/gcp-metadata@4.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gcp-metadata@4.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "get-caller-file",
+      "SPDXID": "SPDXRef-Package-af11180e4f500654",
+      "versionInfo": "2.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/get-caller-file@2.0.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: get-caller-file@2.0.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "github.com/grpc/grpc/tools/http2_interop",
+      "SPDXID": "SPDXRef-Package-3ba4779d8b6e07a0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: tools/http2_interop/go.mod",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/grpc/grpc/tools/http2_interop"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/grpc/grpc/tools/http2_interop"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gomod"
+        }
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "SPDXID": "SPDXRef-Package-94278495a328496",
+      "versionInfo": "6.1.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/google-auth-library@6.1.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: google-auth-library@6.1.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "google-p12-pem",
+      "SPDXID": "SPDXRef-Package-71a9c3b7b37ab507",
+      "versionInfo": "3.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/google-p12-pem@3.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: google-p12-pem@3.0.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "google-protobuf",
+      "SPDXID": "SPDXRef-Package-dd0ee78b1fff395d",
+      "versionInfo": "3.13.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/google-protobuf@3.13.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: google-protobuf@3.13.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "gtoken",
+      "SPDXID": "SPDXRef-Package-79c93d4e73761e0b",
+      "versionInfo": "5.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/gtoken@5.0.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gtoken@5.0.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "SPDXID": "SPDXRef-Package-7e8391e679c121e7",
+      "versionInfo": "5.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/https-proxy-agent@5.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: https-proxy-agent@5.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "SPDXID": "SPDXRef-Package-9dd986ca53a20c3d",
+      "versionInfo": "3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/is-fullwidth-code-point@3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: is-fullwidth-code-point@3.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "is-stream",
+      "SPDXID": "SPDXRef-Package-1715a5e4db41a58a",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/is-stream@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: is-stream@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "json-bigint",
+      "SPDXID": "SPDXRef-Package-5cf0194eae4950a7",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/json-bigint@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: json-bigint@1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "jwa",
+      "SPDXID": "SPDXRef-Package-3eddfa534fa2e45b",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/jwa@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jwa@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "jws",
+      "SPDXID": "SPDXRef-Package-67ed8553c575a23",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/jws@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jws@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "locate-path",
+      "SPDXID": "SPDXRef-Package-68132729adb86f9",
+      "versionInfo": "5.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/locate-path@5.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: locate-path@5.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "lodash",
+      "SPDXID": "SPDXRef-Package-a332c77295d55889",
+      "versionInfo": "4.17.20",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash@4.17.20"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: lodash@4.17.20"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "lodash.camelcase",
+      "SPDXID": "SPDXRef-Package-895a32283cfe64d2",
+      "versionInfo": "4.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.camelcase@4.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: lodash.camelcase@4.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "long",
+      "SPDXID": "SPDXRef-Package-cab62857e6dd4273",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/long@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: long@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "SPDXID": "SPDXRef-Package-b7f9d100dcfb3e23",
+      "versionInfo": "6.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lru-cache@6.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: lru-cache@6.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "mime",
+      "SPDXID": "SPDXRef-Package-9dd01aa9187556d",
+      "versionInfo": "2.4.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime@2.4.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: mime@2.4.6"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "minimist",
+      "SPDXID": "SPDXRef-Package-ff70915886ff535e",
+      "versionInfo": "1.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/minimist@1.2.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: minimist@1.2.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "ms",
+      "SPDXID": "SPDXRef-Package-7f03b2b6934b4b17",
+      "versionInfo": "2.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ms@2.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ms@2.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "node-fetch",
+      "SPDXID": "SPDXRef-Package-54d0658ed7b40178",
+      "versionInfo": "2.6.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/node-fetch@2.6.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: node-fetch@2.6.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "node-forge",
+      "SPDXID": "SPDXRef-Package-635ab6092cc683d0",
+      "versionInfo": "0.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/node-forge@0.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: node-forge@0.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "p-limit",
+      "SPDXID": "SPDXRef-Package-a05374a502e2324b",
+      "versionInfo": "2.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/p-limit@2.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: p-limit@2.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "p-locate",
+      "SPDXID": "SPDXRef-Package-bb2a4443d9c440df",
+      "versionInfo": "4.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/p-locate@4.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: p-locate@4.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "p-try",
+      "SPDXID": "SPDXRef-Package-ba88e99d2ccd310a",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/p-try@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: p-try@2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "path-exists",
+      "SPDXID": "SPDXRef-Package-815fad4b169e41ee",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/path-exists@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: path-exists@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "protobufjs",
+      "SPDXID": "SPDXRef-Package-2d0644f4043b028e",
+      "versionInfo": "6.10.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/protobufjs@6.10.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: protobufjs@6.10.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "require-directory",
+      "SPDXID": "SPDXRef-Package-c7f88b384b202e14",
+      "versionInfo": "2.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/require-directory@2.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: require-directory@2.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "require-main-filename",
+      "SPDXID": "SPDXRef-Package-39e9603feb247c91",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/require-main-filename@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: require-main-filename@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "SPDXID": "SPDXRef-Package-aa2f56c45e827786",
+      "versionInfo": "5.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/safe-buffer@5.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: safe-buffer@5.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "semver",
+      "SPDXID": "SPDXRef-Package-932c1f1ff8bb2e93",
+      "versionInfo": "6.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/semver@6.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: semver@6.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "set-blocking",
+      "SPDXID": "SPDXRef-Package-b0049fb8c2b635e4",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/set-blocking@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: set-blocking@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "string-width",
+      "SPDXID": "SPDXRef-Package-aad008fdd558a7d6",
+      "versionInfo": "4.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/string-width@4.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: string-width@4.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "strip-ansi",
+      "SPDXID": "SPDXRef-Package-ddf23438a8bc6569",
+      "versionInfo": "6.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/strip-ansi@6.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: strip-ansi@6.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "typing-extensions",
+      "SPDXID": "SPDXRef-Package-83af91941488d1bb",
+      "versionInfo": "4.12.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typing-extensions@4.12.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "which-module",
+      "SPDXID": "SPDXRef-Package-2583646469de4937",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/which-module@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: which-module@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "SPDXID": "SPDXRef-Package-e73b9ac36370048b",
+      "versionInfo": "6.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/wrap-ansi@6.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: wrap-ansi@6.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "y18n",
+      "SPDXID": "SPDXRef-Package-37993cb2d299727d",
+      "versionInfo": "4.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/y18n@4.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: y18n@4.0.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "yallist",
+      "SPDXID": "SPDXRef-Package-eab5b48aef64c66c",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/yallist@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: yallist@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "yargs",
+      "SPDXID": "SPDXRef-Package-d68e0466329130df",
+      "versionInfo": "15.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/yargs@15.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: yargs@15.4.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "yargs-parser",
+      "SPDXID": "SPDXRef-Package-aaa6a0b0dab49691",
+      "versionInfo": "18.1.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: examples/node/package-lock.json",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/yargs-parser@18.1.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: yargs-parser@18.1.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "SPDXID": "SPDXRef-Repository-d1a04e1165187ead",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/grpc",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:44:45Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-754b88673e6fe891",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-83af91941488d1bb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-27112fba9a11b3b3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-a25026417238bb8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-a332c77295d55889",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-d9324c59d994f9cb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-dd0ee78b1fff395d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relatedSpdxElement": "SPDXRef-Package-ff70915886ff535e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f7bacab076c23a10",
+      "relatedSpdxElement": "SPDXRef-Package-3ba4779d8b6e07a0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-d1a04e1165187ead",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24a3485c73fd7b08",
+      "relatedSpdxElement": "SPDXRef-Package-737188e2cfe9c25d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24a3485c73fd7b08",
+      "relatedSpdxElement": "SPDXRef-Package-83377585b8c122c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-15cc5aa90a1e5ac",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-24a3485c73fd7b08",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-342c37f2c91e1a8c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-3dccb65fc1a281e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-53cf2c81a44550c6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-70458d5b91d502c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-737188e2cfe9c25d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-83377585b8c122c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-8dac258a36f8c968",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-a79337cb2f1f8df5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-bd51c62f6095a24d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-cab62857e6dd4273",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d0644f4043b028e",
+      "relatedSpdxElement": "SPDXRef-Package-e3cd4adf1009f861",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3a463591bf00981a",
+      "relatedSpdxElement": "SPDXRef-Package-aad008fdd558a7d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3a463591bf00981a",
+      "relatedSpdxElement": "SPDXRef-Package-ddf23438a8bc6569",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3a463591bf00981a",
+      "relatedSpdxElement": "SPDXRef-Package-e73b9ac36370048b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3eddfa534fa2e45b",
+      "relatedSpdxElement": "SPDXRef-Package-2af73f81e6e07c57",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3eddfa534fa2e45b",
+      "relatedSpdxElement": "SPDXRef-Package-858028913c113b28",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3eddfa534fa2e45b",
+      "relatedSpdxElement": "SPDXRef-Package-aa2f56c45e827786",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50fca134d3fd06e8",
+      "relatedSpdxElement": "SPDXRef-Package-2d0644f4043b028e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50fca134d3fd06e8",
+      "relatedSpdxElement": "SPDXRef-Package-895a32283cfe64d2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50fca134d3fd06e8",
+      "relatedSpdxElement": "SPDXRef-Package-8dac258a36f8c968",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50fca134d3fd06e8",
+      "relatedSpdxElement": "SPDXRef-Package-cab62857e6dd4273",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-50fca134d3fd06e8",
+      "relatedSpdxElement": "SPDXRef-Package-d68e0466329130df",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5cf0194eae4950a7",
+      "relatedSpdxElement": "SPDXRef-Package-9fc77448a9ac5480",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f87feddb2217265",
+      "relatedSpdxElement": "SPDXRef-Package-b4a09e0b9e5ae560",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-63496007f56ffa20",
+      "relatedSpdxElement": "SPDXRef-Package-7f03b2b6934b4b17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-67ed8553c575a23",
+      "relatedSpdxElement": "SPDXRef-Package-3eddfa534fa2e45b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-67ed8553c575a23",
+      "relatedSpdxElement": "SPDXRef-Package-aa2f56c45e827786",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-68132729adb86f9",
+      "relatedSpdxElement": "SPDXRef-Package-bb2a4443d9c440df",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-71a9c3b7b37ab507",
+      "relatedSpdxElement": "SPDXRef-Package-635ab6092cc683d0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-74477c28847c2150",
+      "relatedSpdxElement": "SPDXRef-Package-e259153b0a004432",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-79c93d4e73761e0b",
+      "relatedSpdxElement": "SPDXRef-Package-67ed8553c575a23",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-79c93d4e73761e0b",
+      "relatedSpdxElement": "SPDXRef-Package-71a9c3b7b37ab507",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-79c93d4e73761e0b",
+      "relatedSpdxElement": "SPDXRef-Package-9dd01aa9187556d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-79c93d4e73761e0b",
+      "relatedSpdxElement": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7e8391e679c121e7",
+      "relatedSpdxElement": "SPDXRef-Package-63496007f56ffa20",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7e8391e679c121e7",
+      "relatedSpdxElement": "SPDXRef-Package-c7b4b6da18c4b050",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-858028913c113b28",
+      "relatedSpdxElement": "SPDXRef-Package-aa2f56c45e827786",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-1d0015dff2f6b0e2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-67ed8553c575a23",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-79c93d4e73761e0b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-7ed83ef35e7609cc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-858028913c113b28",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-b7f9d100dcfb3e23",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-e6c9292f60366003",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-94278495a328496",
+      "relatedSpdxElement": "SPDXRef-Package-fdb1ee920b594571",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a05374a502e2324b",
+      "relatedSpdxElement": "SPDXRef-Package-ba88e99d2ccd310a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25026417238bb8",
+      "relatedSpdxElement": "SPDXRef-Package-50fca134d3fd06e8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25026417238bb8",
+      "relatedSpdxElement": "SPDXRef-Package-932c1f1ff8bb2e93",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25026417238bb8",
+      "relatedSpdxElement": "SPDXRef-Package-94278495a328496",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25026417238bb8",
+      "relatedSpdxElement": "SPDXRef-Package-dc34e91b609b71b9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-aaa6a0b0dab49691",
+      "relatedSpdxElement": "SPDXRef-Package-99d5028468a86a19",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-aaa6a0b0dab49691",
+      "relatedSpdxElement": "SPDXRef-Package-dca330e573ace304",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-aad008fdd558a7d6",
+      "relatedSpdxElement": "SPDXRef-Package-9dd986ca53a20c3d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-aad008fdd558a7d6",
+      "relatedSpdxElement": "SPDXRef-Package-ddf23438a8bc6569",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-aad008fdd558a7d6",
+      "relatedSpdxElement": "SPDXRef-Package-e97875a14d879997",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b7f9d100dcfb3e23",
+      "relatedSpdxElement": "SPDXRef-Package-eab5b48aef64c66c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb2a4443d9c440df",
+      "relatedSpdxElement": "SPDXRef-Package-a05374a502e2324b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relatedSpdxElement": "SPDXRef-Package-1032b70c4d73f581",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relatedSpdxElement": "SPDXRef-Package-1715a5e4db41a58a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relatedSpdxElement": "SPDXRef-Package-54d0658ed7b40178",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relatedSpdxElement": "SPDXRef-Package-74477c28847c2150",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relatedSpdxElement": "SPDXRef-Package-7e8391e679c121e7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c7554c8e00dc760f",
+      "relatedSpdxElement": "SPDXRef-Package-68132729adb86f9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c7554c8e00dc760f",
+      "relatedSpdxElement": "SPDXRef-Package-815fad4b169e41ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c7b4b6da18c4b050",
+      "relatedSpdxElement": "SPDXRef-Package-63496007f56ffa20",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-2583646469de4937",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-37993cb2d299727d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-39e9603feb247c91",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-3a463591bf00981a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-99d5028468a86a19",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-aaa6a0b0dab49691",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-aad008fdd558a7d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-af11180e4f500654",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-b0049fb8c2b635e4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-c7554c8e00dc760f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d68e0466329130df",
+      "relatedSpdxElement": "SPDXRef-Package-c7f88b384b202e14",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d7251af4ccbf9579",
+      "relatedSpdxElement": "SPDXRef-Package-5f87feddb2217265",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d9324c59d994f9cb",
+      "relatedSpdxElement": "SPDXRef-Package-2d0644f4043b028e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d9324c59d994f9cb",
+      "relatedSpdxElement": "SPDXRef-Package-895a32283cfe64d2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ddf23438a8bc6569",
+      "relatedSpdxElement": "SPDXRef-Package-91f45007fc1728f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e6c9292f60366003",
+      "relatedSpdxElement": "SPDXRef-Package-5cf0194eae4950a7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e6c9292f60366003",
+      "relatedSpdxElement": "SPDXRef-Package-be2e2ece7cf6a8a1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e73b9ac36370048b",
+      "relatedSpdxElement": "SPDXRef-Package-aad008fdd558a7d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e73b9ac36370048b",
+      "relatedSpdxElement": "SPDXRef-Package-d7251af4ccbf9579",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e73b9ac36370048b",
+      "relatedSpdxElement": "SPDXRef-Package-ddf23438a8bc6569",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-d1a04e1165187ead",
+      "relatedSpdxElement": "SPDXRef-Application-243836e57ed785a5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-d1a04e1165187ead",
+      "relatedSpdxElement": "SPDXRef-Application-4b8a0fc55dcaf0e2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-d1a04e1165187ead",
+      "relatedSpdxElement": "SPDXRef-Application-f7bacab076c23a10",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

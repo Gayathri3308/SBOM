@@ -1,0 +1,964 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+  "documentNamespace": "http://trivy.dev/repository/C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn-40019fd9-96df-438b-8a30-5eb2ae98ea62",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.72.0"
+    ],
+    "created": "2026-07-08T23:43:35Z"
+  },
+  "packages": [
+    {
+      "name": "requirements.txt",
+      "SPDXID": "SPDXRef-Application-243836e57ed785a5",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pip"
+        }
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "SPDXID": "SPDXRef-Package-26f7721c9010ad18",
+      "versionInfo": "6.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "aliyun-python-sdk-core",
+      "SPDXID": "SPDXRef-Package-37167c911aa3e60d",
+      "versionInfo": "2.13.36",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/aliyun-python-sdk-core@2.13.36"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "aliyun-python-sdk-ecs",
+      "SPDXID": "SPDXRef-Package-8937ac8685c50041",
+      "versionInfo": "4.24.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/aliyun-python-sdk-ecs@4.24.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "arcaflow-plugin-sdk",
+      "SPDXID": "SPDXRef-Package-295b76cd18c2bdac",
+      "versionInfo": "0.14.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/arcaflow-plugin-sdk@0.14.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-identity",
+      "SPDXID": "SPDXRef-Package-6af912b673acc70e",
+      "versionInfo": "1.16.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-identity@1.16.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-keyvault",
+      "SPDXID": "SPDXRef-Package-a51610c8d000f386",
+      "versionInfo": "4.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-keyvault@4.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-mgmt-compute",
+      "SPDXID": "SPDXRef-Package-c4cb771170e91d05",
+      "versionInfo": "30.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-mgmt-compute@30.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "azure-mgmt-network",
+      "SPDXID": "SPDXRef-Package-f12f2c95a60088c9",
+      "versionInfo": "27.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/azure-mgmt-network@27.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "colorlog",
+      "SPDXID": "SPDXRef-Package-786bbebcba7fb04",
+      "versionInfo": "6.10.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/colorlog@6.10.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "coverage",
+      "SPDXID": "SPDXRef-Package-e85125ca61a6f267",
+      "versionInfo": "7.6.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/coverage@7.6.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "datetime",
+      "SPDXID": "SPDXRef-Package-5d2f44826a047046",
+      "versionInfo": "5.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/datetime@5.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "gitpython",
+      "SPDXID": "SPDXRef-Package-9c7d7972634237c2",
+      "versionInfo": "3.1.50",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/gitpython@3.1.50"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "google-auth",
+      "SPDXID": "SPDXRef-Package-d1c251c8dd528e70",
+      "versionInfo": "2.37.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/google-auth@2.37.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "google-cloud-compute",
+      "SPDXID": "SPDXRef-Package-af93c8664d6f874c",
+      "versionInfo": "1.22.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/google-cloud-compute@1.22.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "ibm_vpc",
+      "SPDXID": "SPDXRef-Package-fae0fbe28cddd92d",
+      "versionInfo": "0.26.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/ibm-vpc@0.26.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "jinja2",
+      "SPDXID": "SPDXRef-Package-2e9a83f57ce55d64",
+      "versionInfo": "3.1.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jinja2@3.1.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "krkn-lib",
+      "SPDXID": "SPDXRef-Package-f448f4c653c39bce",
+      "versionInfo": "6.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/krkn-lib@6.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "lxml",
+      "SPDXID": "SPDXRef-Package-187a47a537fc14e8",
+      "versionInfo": "6.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/lxml@6.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "numpy",
+      "SPDXID": "SPDXRef-Package-248f40a339a32cc8",
+      "versionInfo": "1.26.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/numpy@1.26.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "openshift-client",
+      "SPDXID": "SPDXRef-Package-a30f32b6b358e893",
+      "versionInfo": "1.0.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/openshift-client@1.0.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "pandas",
+      "SPDXID": "SPDXRef-Package-6768035064eb97da",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pandas@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "pyVmomi",
+      "SPDXID": "SPDXRef-Package-23ff2f64b610e5f0",
+      "versionInfo": "8.0.2.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyvmomi@8.0.2.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "pyfiglet",
+      "SPDXID": "SPDXRef-Package-db8dddacc6e0b4f",
+      "versionInfo": "1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyfiglet@1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "pytest",
+      "SPDXID": "SPDXRef-Package-11e63043ddb9a0f9",
+      "versionInfo": "9.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pytest@9.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "python-ipmi",
+      "SPDXID": "SPDXRef-Package-c0bcd9377d6524eb",
+      "versionInfo": "0.5.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/python-ipmi@0.5.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "python-openstackclient",
+      "SPDXID": "SPDXRef-Package-286a285f270f7c81",
+      "versionInfo": "6.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/python-openstackclient@6.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "service_identity",
+      "SPDXID": "SPDXRef-Package-16d334f124df06ba",
+      "versionInfo": "24.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/service-identity@24.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "SPDXID": "SPDXRef-Package-466a9812379c9303",
+      "versionInfo": "81.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: requirements.txt",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/setuptools@81.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pip"
+        }
+      ]
+    },
+    {
+      "name": "C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "SPDXID": "SPDXRef-Repository-6b5ffe281300f309",
+      "downloadLocation": "git+C:/Users/akjan/Gayathri/Python/SBOM/repositories/krkn",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.72.0",
+          "annotationDate": "2026-07-08T23:43:35Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-11e63043ddb9a0f9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-16d334f124df06ba",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-187a47a537fc14e8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-23ff2f64b610e5f0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-248f40a339a32cc8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-26f7721c9010ad18",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-286a285f270f7c81",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-295b76cd18c2bdac",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-2e9a83f57ce55d64",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-37167c911aa3e60d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-466a9812379c9303",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-5d2f44826a047046",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-6768035064eb97da",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-6af912b673acc70e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-786bbebcba7fb04",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-8937ac8685c50041",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-9c7d7972634237c2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-a30f32b6b358e893",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-a51610c8d000f386",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-af93c8664d6f874c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-c0bcd9377d6524eb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-c4cb771170e91d05",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-d1c251c8dd528e70",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-db8dddacc6e0b4f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-e85125ca61a6f267",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-f12f2c95a60088c9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-f448f4c653c39bce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-243836e57ed785a5",
+      "relatedSpdxElement": "SPDXRef-Package-fae0fbe28cddd92d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Repository-6b5ffe281300f309",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Repository-6b5ffe281300f309",
+      "relatedSpdxElement": "SPDXRef-Application-243836e57ed785a5",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

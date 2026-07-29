@@ -1,0 +1,476 @@
+===========================================================================
+SBOM COMPARISON REPORT
+===========================================================================
+
+Project: aeraki
+Generated: 2026-07-29 12:02:22.039063
+
+---------------------------------------------------------------------------
+SUMMARY
+---------------------------------------------------------------------------
+
+Syft Packages : 210
+Trivy Packages: 196
+
+Syft Licenses : 0
+Trivy Licenses: 0
+
+Syft PURLs : 203
+Trivy PURLs: 194
+
+Syft CPEs : 317
+Trivy CPEs: 0
+
+Syft Suppliers : 7
+Trivy Suppliers: 1
+
+Syft Ecosystems : 2
+Trivy Ecosystems: 1
+
+
+===========================================================================
+Package Names
+===========================================================================
+
+Shared: 193
+
+Only in Syft (8)
+----------------------------------------
+Jerome1337/golint-action
+actions/checkout
+actions/setup-go
+aeraki
+apache/skywalking-eyes
+docker/login-action
+golangci/golangci-lint-action
+ibiqlik/action-yamllint
+
+Only in Trivy (3)
+----------------------------------------
+C:/Users/akjan/Gayathri/Python/SBOM/repositories/aeraki
+github.com/aeraki-mesh/aeraki
+go.mod
+
+
+===========================================================================
+Package Versions
+===========================================================================
+
+Shared: 193
+
+Only in Syft (10)
+----------------------------------------
+Jerome1337/golint-action==v1.0.2
+actions/checkout==v2
+actions/checkout==v2.3.5
+actions/checkout==v2.4.0
+actions/setup-go==v1
+actions/setup-go==v2
+apache/skywalking-eyes==v0.2.0
+docker/login-action==v1
+golangci/golangci-lint-action==v7.0.0
+ibiqlik/action-yamllint==v1
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Licenses
+===========================================================================
+
+Shared: 0
+
+Only in Syft (0)
+----------------------------------------
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Package Ecosystems
+===========================================================================
+
+Shared: 1
+
+Only in Syft (1)
+----------------------------------------
+github
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Suppliers
+===========================================================================
+
+Shared: 1
+
+Only in Syft (6)
+----------------------------------------
+Organization: GitHub
+Organization: Jerome1337
+Organization: apache
+Organization: docker
+Organization: golangci
+Organization: ibiqlik
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Package URLs (PURLs)
+===========================================================================
+
+Shared: 193
+
+Only in Syft (10)
+----------------------------------------
+pkg:github/actions/checkout@v2
+pkg:github/actions/checkout@v2.3.5
+pkg:github/actions/checkout@v2.4.0
+pkg:github/actions/setup-go@v1
+pkg:github/actions/setup-go@v2
+pkg:github/apache/skywalking-eyes@v0.2.0
+pkg:github/docker/login-action@v1
+pkg:github/golangci/golangci-lint-action@v7.0.0
+pkg:github/ibiqlik/action-yamllint@v1
+pkg:github/jerome1337/golint-action@v1.0.2
+
+Only in Trivy (1)
+----------------------------------------
+pkg:golang/github.com/aeraki-mesh/aeraki
+
+
+===========================================================================
+Common Platform Enumerations (CPEs)
+===========================================================================
+
+Shared: 0
+
+Only in Syft (317)
+----------------------------------------
+cpe:2.3:a:Azure:go-ansiterm:v0.0.0-20210617225240-d185dfc1b5a1:*:*:*:*:*:*:*
+cpe:2.3:a:Azure:go_ansiterm:v0.0.0-20210617225240-d185dfc1b5a1:*:*:*:*:*:*:*
+cpe:2.3:a:BurntSushi:toml:v1.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint-action:Jerome1337\/golint-action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint-action:Jerome1337\/golint_action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint:Jerome1337\/golint-action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint:Jerome1337\/golint_action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint_action:Jerome1337\/golint-action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:Jerome1337\/golint_action:Jerome1337\/golint_action:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:MakeNowJust:heredoc:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:Masterminds:semver\/v3:v3.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:Masterminds:sprig\/v3:v3.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/checkout:actions\/checkout:v2.3.5:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/checkout:actions\/checkout:v2.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/checkout:actions\/checkout:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup-go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup-go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup_go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup_go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup-go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup-go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup_go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup_go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup-go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup-go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup_go:v1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup_go:v2:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki-mesh:api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki-mesh:client-go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki-mesh:client_go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki-mesh:meta-protocol-control-plane-api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki-mesh:meta_protocol_control_plane_api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki:api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki:client-go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki:client_go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki:meta-protocol-control-plane-api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki:meta_protocol_control_plane_api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki_mesh:api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki_mesh:client-go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki_mesh:client_go:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki_mesh:meta-protocol-control-plane-api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:aeraki_mesh:meta_protocol_control_plane_api:v1.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:alecholmes:xfccparser:v0.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:alecthomas:participle:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:antlr:antlr4\/runtime\/Go\/antlr\/v4:v4.0.0-20230305170008-8188dc5388df:*:*:*:*:*:*:*
+cpe:2.3:a:apache:thrift:v0.18.1:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking-eyes:apache\/skywalking-eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking-eyes:apache\/skywalking_eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking:apache\/skywalking-eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking:apache\/skywalking_eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking_eyes:apache\/skywalking-eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:apache\/skywalking_eyes:apache\/skywalking_eyes:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:cenkalti:backoff\/v4:v4.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:census-instrumentation:opencensus-proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:census-instrumentation:opencensus_proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:census:opencensus-proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:census:opencensus_proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:census_instrumentation:opencensus-proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:census_instrumentation:opencensus_proto:v0.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:cespare:xxhash\/v2:v2.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:chai2010:gettext-go:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:chai2010:gettext_go:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:cncf:xds\/go:v0.0.0-20230607035331-e9ce68804cb4:*:*:*:*:*:*:*
+cpe:2.3:a:containerd:stargz-snapshotter\/estargz:v0.14.3:*:*:*:*:*:*:*
+cpe:2.3:a:containerd:stargz_snapshotter\/estargz:v0.14.3:*:*:*:*:*:*:*
+cpe:2.3:a:coreos:go-oidc\/v3:v3.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:coreos:go_oidc\/v3:v3.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:cyphar:filepath-securejoin:v0.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:cyphar:filepath_securejoin:v0.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:decred:dcrd\/dcrec\/secp256k1\/v4:v4.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:docker:cli:v24.0.4\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:docker:distribution:v2.8.2\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:docker:docker-credential-helpers:v0.7.0:*:*:*:*:*:*:*
+cpe:2.3:a:docker:docker:v24.0.7\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:docker:docker_credential_helpers:v0.7.0:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login-action:docker\/login-action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login-action:docker\/login_action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login:docker\/login-action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login:docker\/login_action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login_action:docker\/login-action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:docker\/login_action:docker\/login_action:v1:*:*:*:*:*:*:*
+cpe:2.3:a:emicklei:go-restful\/v3:v3.10.1:*:*:*:*:*:*:*
+cpe:2.3:a:emicklei:go_restful\/v3:v3.10.1:*:*:*:*:*:*:*
+cpe:2.3:a:envoyproxy:go-control-plane:v0.11.2-0.20230811160418-a0dbac19f027:*:*:*:*:*:*:*
+cpe:2.3:a:envoyproxy:go_control_plane:v0.11.2-0.20230811160418-a0dbac19f027:*:*:*:*:*:*:*
+cpe:2.3:a:envoyproxy:protoc-gen-validate:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:envoyproxy:protoc_gen_validate:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:evanphx:json-patch:v5.6.0\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:evanphx:json-patch\/v5:v5.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:evanphx:json_patch:v5.6.0\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:evanphx:json_patch\/v5:v5.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:exponent-io:jsonpath:v0.0.0-20151013193312-d6023ce2651d:*:*:*:*:*:*:*
+cpe:2.3:a:exponent:jsonpath:v0.0.0-20151013193312-d6023ce2651d:*:*:*:*:*:*:*
+cpe:2.3:a:exponent_io:jsonpath:v0.0.0-20151013193312-d6023ce2651d:*:*:*:*:*:*:*
+cpe:2.3:a:exporter:prometheus:v0.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:fatih:camelcase:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:frankban:quicktest:v1.14.5:*:*:*:*:*:*:*
+cpe:2.3:a:fsnotify:fsnotify:v1.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:fvbommel:sortorder:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:go-errors:errors:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go-jose:go-jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go-jose:go_jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go-kit:log:v0.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:go-logfmt:logfmt:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:go-logr:logr:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:go:compute:v1.20.1:*:*:*:*:*:*:*
+cpe:2.3:a:go:compute\/metadata:v0.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:go:errors:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go:go-jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go:go_jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go:log:v0.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:go:logfmt:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:go:logging:v1.7.0:*:*:*:*:*:*:*
+cpe:2.3:a:go:logr:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:go:longrunning:v0.5.1:*:*:*:*:*:*:*
+cpe:2.3:a:go:ssh:v0.35.0:*:*:*:*:go:*:*
+cpe:2.3:a:go:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:go_errors:errors:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go_jose:go-jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go_jose:go_jose\/v3:v3.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:go_kit:log:v0.2.1:*:*:*:*:*:*:*
+cpe:2.3:a:go_logfmt:logfmt:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:go_logr:logr:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:gobwas:glob:v0.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:goccy:go-json:v0.10.2:*:*:*:*:*:*:*
+cpe:2.3:a:goccy:go_json:v0.10.2:*:*:*:*:*:*:*
+cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*
+cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*
+cpe:2.3:a:golang:networking:v0.36.0:*:*:*:*:go:*:*
+cpe:2.3:a:golang:protobuf:v1.5.3:*:*:*:*:*:*:*
+cpe:2.3:a:golang:text:v0.22.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/exp:v0.0.0-20230713183714-613f0c0eb8a1:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/mod:v0.17.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/oauth2:v0.10.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/sync:v0.11.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/sys:v0.30.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/term:v0.29.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/time:v0.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/tools:v0.21.1-0.20240508182429-e35e4ccd0d2d:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci-lint-action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci_lint_action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci-lint-action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci_lint_action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci:golangci\/golangci-lint-action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci:golangci\/golangci_lint_action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci-lint-action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci_lint_action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci-lint-action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci_lint_action:v7.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:api:v0.132.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:appengine:v1.6.7:*:*:*:*:*:*:*
+cpe:2.3:a:google:btree:v1.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:google:cel-go:v0.16.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:cel_go:v0.16.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:genproto:v0.0.0-20230720185612-659f7aaaa771:*:*:*:*:*:*:*
+cpe:2.3:a:google:gnostic:v0.6.9:*:*:*:*:*:*:*
+cpe:2.3:a:google:go-cmp:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:go-containerregistry:v0.15.2:*:*:*:*:*:*:*
+cpe:2.3:a:google:go-github:v17.0.0\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:google:go-querystring:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:go_cmp:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:go_containerregistry:v0.15.2:*:*:*:*:*:*:*
+cpe:2.3:a:google:go_github:v17.0.0\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:google:go_querystring:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:grpc:v1.57.1:*:*:*:*:*:*:*
+cpe:2.3:a:google:protobuf:v1.33.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:s2a-go:v0.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:google:s2a_go:v0.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:google:shlex:v0.0.0-20191202100458-e7afc7fbc510:*:*:*:*:*:*:*
+cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:googleapis:enterprise-certificate-proxy:v0.2.5:*:*:*:*:*:*:*
+cpe:2.3:a:googleapis:enterprise_certificate_proxy:v0.2.5:*:*:*:*:*:*:*
+cpe:2.3:a:googleapis:gax-go\/v2:v2.12.0:*:*:*:*:*:*:*
+cpe:2.3:a:googleapis:gax_go\/v2:v2.12.0:*:*:*:*:*:*:*
+cpe:2.3:a:gorilla:mux:v1.8.0:*:*:*:*:*:*:*
+cpe:2.3:a:goutils_project:goutils:v1.1.1:*:*:*:*:go:*:*
+cpe:2.3:a:grafana:regexp:v0.0.0-20221122212121-6b5c0a4cb7fd:*:*:*:*:*:*:*
+cpe:2.3:a:gregjones:httpcache:v0.0.0-20190611155906-901d90724c79:*:*:*:*:*:*:*
+cpe:2.3:a:grpc-ecosystem:go-grpc-middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc-ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc-ecosystem:go_grpc_middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc-ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc:go-grpc-middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc:go_grpc_middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc_ecosystem:go-grpc-middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc_ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc_ecosystem:go_grpc_middleware:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:grpc_ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:errwrap:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go-multierror:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go-version:v1.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go_multierror:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go_version:v1.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:golang-lru\/v2:v2.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:golang_lru\/v2:v2.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:helm:v3:v3.11.2:*:*:*:*:*:*:*
+cpe:2.3:a:huandu:xstrings:v1.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action-yamllint:ibiqlik\/action-yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action-yamllint:ibiqlik\/action_yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action:ibiqlik\/action-yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action:ibiqlik\/action_yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action_yamllint:ibiqlik\/action-yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:ibiqlik\/action_yamllint:ibiqlik\/action_yamllint:v1:*:*:*:*:*:*:*
+cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*
+cpe:2.3:a:inconshreveable:mousetrap:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:jonboulle:clockwork:v0.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:jsonpatch:v2:v2.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:jsonpatch:v3:v3.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:klauspost:compress:v1.16.5:*:*:*:*:*:*:*
+cpe:2.3:a:klog:v2:v2.100.1:*:*:*:*:*:*:*
+cpe:2.3:a:kustomize:api:v0.13.2:*:*:*:*:*:*:*
+cpe:2.3:a:kustomize:kyaml:v0.14.1:*:*:*:*:*:*:*
+cpe:2.3:a:kylelemons:godebug:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:backoff\/v2:v2.0.8:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:blackmagic:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:httpcc:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:iter:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:jwx:v1.2.28:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat-go:option:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:backoff\/v2:v2.0.8:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:blackmagic:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:httpcc:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:iter:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:jwx:v1.2.28:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat:option:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:backoff\/v2:v2.0.8:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:blackmagic:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:httpcc:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:iter:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:jwx:v1.2.28:*:*:*:*:*:*:*
+cpe:2.3:a:lestrrat_go:option:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:liggitt:tabwriter:v0.0.0-20181228230101-89fcab3d43de:*:*:*:*:*:*:*
+cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*
+cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.4:*:*:*:*:*:*:*
+cpe:2.3:a:miekg:dns:v1.1.55:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:copystructure:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:go-homedir:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:go-wordwrap:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:go_homedir:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:go_wordwrap:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:reflectwalk:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:moby:term:v0.0.0-20221205130635-1aeaba878587:*:*:*:*:*:*:*
+cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:monochromegane:go-gitignore:v0.0.0-20200626010858-205db1a8cc00:*:*:*:*:*:*:*
+cpe:2.3:a:monochromegane:go_gitignore:v0.0.0-20200626010858-205db1a8cc00:*:*:*:*:*:*:*
+cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*
+cpe:2.3:a:opencontainers:go-digest:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:opencontainers:go_digest:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:opencontainers:image-spec:v1.1.0-rc3:*:*:*:*:*:*:*
+cpe:2.3:a:opencontainers:image_spec:v1.1.0-rc3:*:*:*:*:*:*:*
+cpe:2.3:a:openshift:api:v0.0.0-20230720094506-afcbe27aec7c:*:*:*:*:*:*:*
+cpe:2.3:a:peterbourgon:diskv:v2.0.1\+incompatible:*:*:*:*:*:*:*
+cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*
+cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:client-golang:v1.16.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:client-model:v0.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:client_golang:v1.16.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:client_model:v0.4.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:common:v0.42.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:procfs:v0.10.1:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:prom2json:v1.3.2:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:prometheus:v0.45.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:statsd-exporter:v0.23.0:*:*:*:*:*:*:*
+cpe:2.3:a:prometheus:statsd_exporter:v0.23.0:*:*:*:*:*:*:*
+cpe:2.3:a:proto:otlp:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:russross:blackfriday\/v2:v2.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:ryanuber:go-glob:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:ryanuber:go_glob:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:shopspring:decimal:v1.3.1:*:*:*:*:*:*:*
+cpe:2.3:a:spaolacci:murmur3:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:spf13:cast:v1.5.1:*:*:*:*:*:*:*
+cpe:2.3:a:spf13:cobra:v1.7.0:*:*:*:*:*:*:*
+cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*
+cpe:2.3:a:stoewer:go-strcase:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:stoewer:go_strcase:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:stretchr:testify:v1.8.4:*:*:*:*:*:*:*
+cpe:2.3:a:structured-merge-diff:v4:v4.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:structured-merge:v4:v4.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:structured:v4:v4.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:structured_merge:v4:v4.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:structured_merge_diff:v4:v4.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:turbopuffer:logrus:v1.9.0:*:*:*:*:go:*:*
+cpe:2.3:a:vbatts:tar-split:v0.11.3:*:*:*:*:*:*:*
+cpe:2.3:a:vbatts:tar_split:v0.11.3:*:*:*:*:*:*:*
+cpe:2.3:a:xeipuuv:gojsonpointer:v0.0.0-20190905194746-02993c407bfb:*:*:*:*:*:*:*
+cpe:2.3:a:xeipuuv:gojsonreference:v0.0.0-20180127040603-bd5ef7bd5415:*:*:*:*:*:*:*
+cpe:2.3:a:xeipuuv:gojsonschema:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:xlab:treeprint:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*
+cpe:2.3:a:yl2chen:cidranger:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:zhaohuabing:debounce:v1.0.0:*:*:*:*:*:*:*
+
+Only in Trivy (0)
+----------------------------------------
+

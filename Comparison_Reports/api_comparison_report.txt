@@ -1,0 +1,363 @@
+===========================================================================
+SBOM COMPARISON REPORT
+===========================================================================
+
+Project: api
+Generated: 2026-07-29 12:07:25.226126
+
+---------------------------------------------------------------------------
+SUMMARY
+---------------------------------------------------------------------------
+
+Syft Packages : 96
+Trivy Packages: 80
+
+Syft Licenses : 0
+Trivy Licenses: 8
+
+Syft PURLs : 73
+Trivy PURLs: 63
+
+Syft CPEs : 180
+Trivy CPEs: 0
+
+Syft Suppliers : 7
+Trivy Suppliers: 1
+
+Syft Ecosystems : 3
+Trivy Ecosystems: 2
+
+
+===========================================================================
+Package Names
+===========================================================================
+
+Shared: 56
+
+Only in Syft (13)
+----------------------------------------
+actions/checkout
+actions/setup-go
+actions/setup-node
+actions/setup-python
+actions/stale
+actions/upload-artifact
+api
+benoitf/che-pr-check-gh-action
+codecov/codecov-action
+github/codeql-action/upload-sarif
+ossf/scorecard-action
+py-actions/py-dependency-install
+pyyaml
+
+Only in Trivy (7)
+----------------------------------------
+C:/Users/akjan/Gayathri/Python/SBOM/repositories/api
+PyYAML
+build/typescript-model/requirements.txt
+generator/go.mod
+github.com/devfile/api/generator
+github.com/devfile/api/v2
+go.mod
+
+
+===========================================================================
+Package Versions
+===========================================================================
+
+Shared: 60
+
+Only in Syft (13)
+----------------------------------------
+actions/checkout==v3.5.3
+actions/setup-go==v4.1.0
+actions/setup-node==v4.0.0
+actions/setup-python==v4.7.1
+actions/stale==v7
+actions/upload-artifact==65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+benoitf/che-pr-check-gh-action==master
+codecov/codecov-action==v3.1.4
+github/codeql-action/upload-sarif==v2.2.4
+github/codeql-action/upload-sarif==v3.28.17
+ossf/scorecard-action==v2.1.2
+py-actions/py-dependency-install==v4.0.0
+pyyaml==5.4.1
+
+Only in Trivy (1)
+----------------------------------------
+PyYAML==5.4.1
+
+
+===========================================================================
+Licenses
+===========================================================================
+
+Shared: 0
+
+Only in Syft (0)
+----------------------------------------
+
+Only in Trivy (8)
+----------------------------------------
+Apache-2.0
+Apache-2.0 AND BSD-3-Clause
+Apache-2.0 AND MIT
+BSD-3-Clause
+BSD-3-Clause AND MIT
+ISC
+MIT
+MPL-2.0
+
+
+===========================================================================
+Package Ecosystems
+===========================================================================
+
+Shared: 2
+
+Only in Syft (1)
+----------------------------------------
+github
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Suppliers
+===========================================================================
+
+Shared: 1
+
+Only in Syft (6)
+----------------------------------------
+Organization: GitHub
+Organization: benoitf
+Organization: codecov
+Organization: github
+Organization: ossf
+Organization: py-actions
+
+Only in Trivy (0)
+----------------------------------------
+
+
+===========================================================================
+Package URLs (PURLs)
+===========================================================================
+
+Shared: 61
+
+Only in Syft (12)
+----------------------------------------
+pkg:github/actions/checkout@v3.5.3
+pkg:github/actions/setup-go@v4.1.0
+pkg:github/actions/setup-node@v4.0.0
+pkg:github/actions/setup-python@v4.7.1
+pkg:github/actions/stale@v7
+pkg:github/actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+pkg:github/benoitf/che-pr-check-gh-action@master
+pkg:github/codecov/codecov-action@v3.1.4
+pkg:github/github/codeql-action@v2.2.4#upload-sarif
+pkg:github/github/codeql-action@v3.28.17#upload-sarif
+pkg:github/ossf/scorecard-action@v2.1.2
+pkg:github/py-actions/py-dependency-install@v4.0.0
+
+Only in Trivy (2)
+----------------------------------------
+pkg:golang/github.com/devfile/api/generator
+pkg:golang/github.com/devfile/api/v2
+
+
+===========================================================================
+Common Platform Enumerations (CPEs)
+===========================================================================
+
+Shared: 0
+
+Only in Syft (180)
+----------------------------------------
+cpe:2.3:a:actions\/checkout:actions\/checkout:v3.5.3:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup-go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-go:actions\/setup_go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-node:actions\/setup-node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-node:actions\/setup_node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-python:actions\/setup-python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup-python:actions\/setup_python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup-go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup-node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup-python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup_go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup_node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup:actions\/setup_python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup-go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_go:actions\/setup_go:v4.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_node:actions\/setup-node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_node:actions\/setup_node:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_python:actions\/setup-python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/setup_python:actions\/setup_python:v4.7.1:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/stale:actions\/stale:v7:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload:actions\/upload-artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload:actions\/upload_artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check-gh-action:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check-gh-action:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check-gh:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check-gh:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr-check:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che-pr:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check_gh:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check_gh:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check_gh_action:benoitf\/che-pr-check-gh-action:master:*:*:*:*:*:*:*
+cpe:2.3:a:benoitf\/che_pr_check_gh_action:benoitf\/che_pr_check_gh_action:master:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov-action:codecov\/codecov-action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov-action:codecov\/codecov_action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov:codecov\/codecov-action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov:codecov\/codecov_action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov_action:codecov\/codecov-action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:codecov\/codecov_action:codecov\/codecov_action:v3.1.4:*:*:*:*:*:*:*
+cpe:2.3:a:coreos:go-semver:v0.3.1:*:*:*:*:*:*:*
+cpe:2.3:a:coreos:go_semver:v0.3.1:*:*:*:*:*:*:*
+cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*
+cpe:2.3:a:elliotchance:orderedmap:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:fatih:color:v1.12.0:*:*:*:*:*:*:*
+cpe:2.3:a:ghodss:yaml:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql-action\/upload-sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql-action\/upload-sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql_action\/upload_sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql_action\/upload_sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload:github\/codeql-action\/upload-sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload:github\/codeql-action\/upload-sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload:github\/codeql_action\/upload_sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql-action\/upload:github\/codeql_action\/upload_sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql:github\/codeql-action\/upload-sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql:github\/codeql-action\/upload-sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql:github\/codeql_action\/upload_sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql:github\/codeql_action\/upload_sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload:github\/codeql-action\/upload-sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload:github\/codeql-action\/upload-sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload:github\/codeql_action\/upload_sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload:github\/codeql_action\/upload_sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql-action\/upload-sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql-action\/upload-sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql_action\/upload_sarif:v2.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql_action\/upload_sarif:v3.28.17:*:*:*:*:*:*:*
+cpe:2.3:a:go-logr:logr:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:go-logr:logr:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go-openapi:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:go-toolsmith:astcopy:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:go:astcopy:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:go:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go:logr:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:go:logr:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:go_logr:logr:v1.3.0:*:*:*:*:*:*:*
+cpe:2.3:a:go_logr:logr:v1.4.2:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:jsonpointer:v0.19.6:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:jsonreference:v0.20.2:*:*:*:*:*:*:*
+cpe:2.3:a:go_openapi:swag:v0.22.3:*:*:*:*:*:*:*
+cpe:2.3:a:go_toolsmith:astcopy:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:gobuffalo:flect:v0.2.3:*:*:*:*:*:*:*
+cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*
+cpe:2.3:a:golang:networking:v0.38.0:*:*:*:*:go:*:*
+cpe:2.3:a:golang:protobuf:v1.5.4:*:*:*:*:*:*:*
+cpe:2.3:a:golang:text:v0.23.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/mod:v0.17.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/sync:v0.12.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/sys:v0.31.0:*:*:*:*:*:*:*
+cpe:2.3:a:golang:x\/tools:v0.21.1-0.20240508182429-e35e4ccd0d2d:*:*:*:*:*:*:*
+cpe:2.3:a:google:gnostic-models:v0.6.8:*:*:*:*:*:*:*
+cpe:2.3:a:google:gnostic_models:v0.6.8:*:*:*:*:*:*:*
+cpe:2.3:a:google:go-cmp:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:go_cmp:v0.6.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*
+cpe:2.3:a:google:protobuf:v1.33.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:errwrap:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go-multierror:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:hashicorp:go_multierror:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:iancoleman:strcase:v0.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:inconshreveable:mousetrap:v1.1.0:*:*:*:*:*:*:*
+cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*
+cpe:2.3:a:klog:v2:v2.110.1:*:*:*:*:*:*:*
+cpe:2.3:a:klog:v2:v2.120.1:*:*:*:*:*:*:*
+cpe:2.3:a:lucasjones:reggen:v0.0.0-20200904144131-37ba4fa293bb:*:*:*:*:*:*:*
+cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*
+cpe:2.3:a:mattn:go-colorable:v0.1.8:*:*:*:*:*:*:*
+cpe:2.3:a:mattn:go-isatty:v0.0.12:*:*:*:*:*:*:*
+cpe:2.3:a:mattn:go_colorable:v0.1.8:*:*:*:*:*:*:*
+cpe:2.3:a:mattn:go_isatty:v0.0.12:*:*:*:*:*:*:*
+cpe:2.3:a:mitchellh:reflectwalk:v1.0.1:*:*:*:*:*:*:*
+cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*
+cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard-action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard_action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard:ossf\/scorecard-action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard:ossf\/scorecard_action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard-action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard_action:v2.1.2:*:*:*:*:*:*:*
+cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py-dependency-install:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py-dependency-install:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py-dependency:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py-dependency:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py-actions\/py:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py_dependency:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py_dependency:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py_dependency_install:py-actions\/py-dependency-install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:py_actions\/py_dependency_install:py_actions\/py_dependency_install:v4.0.0:*:*:*:*:*:*:*
+cpe:2.3:a:python-pyyaml:python-pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python-pyyaml:python_pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python-pyyaml:pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python:python-pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python:python_pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python:pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python_pyyaml:python-pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python_pyyaml:python_pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:python_pyyaml:pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:pyyaml:python-pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:pyyaml:python_pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:pyyaml:pyyaml:5.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:santhosh-tekuri:jsonschema:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:santhosh:jsonschema:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:santhosh_tekuri:jsonschema:v1.2.4:*:*:*:*:*:*:*
+cpe:2.3:a:spf13:cobra:v1.7.0:*:*:*:*:*:*:*
+cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*
+cpe:2.3:a:stretchr:testify:v1.8.4:*:*:*:*:*:*:*
+cpe:2.3:a:structured-merge-diff:v4:v4.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:structured-merge:v4:v4.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:structured:v4:v4.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:structured_merge:v4:v4.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:structured_merge_diff:v4:v4.4.1:*:*:*:*:*:*:*
+cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*
+
+Only in Trivy (0)
+----------------------------------------
+
