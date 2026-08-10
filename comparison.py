@@ -256,6 +256,13 @@ def print_comparison(comparison):
 
     print(f"Shared: {len(comparison['shared'])}")
 
+    if comparison["shared"]:
+        print("\nShared Items:")
+        print("-" * 40)
+
+        for item in comparison["shared"]:
+            print(f"   {item}")
+
     print(f"Only in Syft: {len(comparison['only_syft'])}")
 
     if comparison["only_syft"]:
@@ -400,8 +407,17 @@ def generate_report(
             report.write("=" * 75 + "\n\n")
 
             report.write(
-                f"Shared: {len(comparison['shared'])}\n\n"
+                f"Shared: {len(comparison['shared'])}\n"
             )
+
+            if comparison["shared"]:
+                report.write("Shared Items\n")
+                report.write("-" * 40 + "\n")
+
+                for item in comparison["shared"]:
+                    report.write(f"{item}\n")
+
+            report.write("\n")
 
             report.write(
                 f"Only in Syft ({len(comparison['only_syft'])})\n"
