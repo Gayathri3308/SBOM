@@ -4,11 +4,6 @@ PURL Comparison Tool
 This script compares PURLs found in a Syft SPDX SBOM
 and a Trivy SPDX SBOM.
 
-Part 1:
-- Accept two SPDX JSON files from the command line
-- Verify that both files exist
-- Load both SPDX documents
-- Determine the project name automatically
 """
 
 import argparse
